@@ -1,3 +1,4 @@
+@SuppressWarnings("serial")
 public class Carte implements java.io.Serializable {
 
 	private String nume;
