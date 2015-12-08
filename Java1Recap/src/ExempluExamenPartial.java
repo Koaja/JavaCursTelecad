@@ -9,7 +9,7 @@ public class ExempluExamenPartial {
 
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-		String line = "";
+		String line;
 		try {
 			while (true) {
 				line = in.readLine();
