@@ -10,12 +10,15 @@ public class Exemplu4 {
 		PrintStream out = null;
 
 		try {
-			in = new BufferedReader(new InputStreamReader(new FileInputStream("Exemplu1.java")));
-			out = new PrintStream("test.txt");
+			in = new BufferedReader(new InputStreamReader(
+					new FileInputStream("C:\\git\\JavaCursTelecad\\Java1Curs6\\src\\test32.txt")));
+			out = new PrintStream("C:\\git\\JavaCursTelecad\\Java1Curs6\\src\\test3tt.txt");
 
 			String line = "";
 			while ((line = in.readLine()) != null) {
-				out.println(line);
+				if (line.contains("3")) {
+					out.print("hue");
+				}
 			}
 
 		} catch (IOException e) {
